@@ -32,11 +32,22 @@ calculator.add(5, 1);
 const cal = {
     ad: function(a, b) {
         console.log(a + b);
+    },
+    minus: function(a, b) {
+
         console.log(a - b);
+    },
+    devide: function(a, b) {
+
         console.log(a / b);
+    },
+    power: function(a, b) {
         console.log(a ** b);
     }
+    
 }
 
 cal.ad(20, 2);
-cal.ad(20, 5);
+cal.minus(20, 5);
+cal.devide(40, 20);
+cal.power(2, 3);
