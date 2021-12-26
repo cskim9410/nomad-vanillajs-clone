@@ -1,11 +1,23 @@
-const player = {
-    name: "nico",
-    age: 15,
-    fat: true,
-    sayHello: function(otherPersonsName){
-        console.log("hello " + otherPersonsName + " nice to meet you!")
-    }
-}
+const a = 5;
+let isNicoFat = true;
+console.log(isNicoFat);
+isNicoFat = false;
 
-player.sayHello("lynn");
-player.sayHello("nico");
+console.log(isNicoFat);
+
+const days = [1, 2, 3, 4, 5];
+console.log(days[0]);
+
+days[0] = "KK";
+console.log(days[0]);
+
+days.push("OB");
+console.log(days);
+
+
+
+
+
+
+
+
